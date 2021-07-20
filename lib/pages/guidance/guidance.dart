@@ -135,7 +135,7 @@ class _GuidancePageState extends State<GuidancePage> {
         children: [
           ElevatedButton(
             onPressed: () {
-              Navigator.push(context, new MaterialPageRoute(builder: (context)=> new SignInPage()));
+              Navigator.pushNamed(context, "/sign-in");
             },
             style: ButtonStyle(
               textStyle: MaterialStateProperty.all(

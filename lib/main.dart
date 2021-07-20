@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
           //要支持下面这个需要使用第一种初始化方式
           textTheme: TextTheme(button: TextStyle(fontSize: 45.sp)),
         ),
+        routes: staticRoutes,
         home: GuidancePage(),
       ),
     );
